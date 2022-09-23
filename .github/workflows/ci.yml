@@ -28,7 +28,7 @@ jobs:
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: pnpm install
       - name: Running Coverage
-        run: pnpm coverage
+        run: pnpm test
       - name: Upload Coverage
         uses: codecov/codecov-action@v3
         with:
