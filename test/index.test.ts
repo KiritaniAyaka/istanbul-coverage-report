@@ -1,6 +1,6 @@
 import func from "../src/index";
 import func2 from "../src/index2";
-import { it } from "mocha";
+import { it } from "vitest";
 
 it("index", () => {
   func(true);
