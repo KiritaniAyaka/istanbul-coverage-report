@@ -2,7 +2,7 @@
   "extends": "@istanbuljs/nyc-config-typescript",
   "include": ["src/**/*.ts"],
   "extension": [".ts"],
-  "reporter": ["html", "clover"],
+  "reporter": ["html", "json"],
   "all": true,
   "sourceMap": true,
   "instrument": true
